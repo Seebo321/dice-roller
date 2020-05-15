@@ -48,7 +48,8 @@ diceRollsButton.addEventListener("click", function () {
         diceRolls.shift(0)
         console.log(index)
     }
-diceList.innerHTML = (lists)
+    
+diceList.innerHTML = (lists.join(''))
 
 })
 
